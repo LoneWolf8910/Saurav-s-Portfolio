@@ -1,2 +1,2 @@
 # Portfolio
- This is a repositry that contains HTML, CSS & Javascript File of my portfolio website
+ This is a repositry that contains HTML, CSS & Javascript File of my portfolio website. Here one can get the details of my projects that I did earlier....

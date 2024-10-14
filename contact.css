@@ -1,0 +1,123 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(2, 2, 27);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.left {
+    font-family: "Rubik Vinyl", system-ui;
+    text-shadow: 10px 5px 5px rgb(0, 0, 0);
+    font-size: 2rem;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    position: relative;
+    background-color: rgb(4, 4, 43);
+    text-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    list-style: none;
+    margin: 0 24px;
+    font-size: 1.1rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(51, 152, 240);
+    font-size: 1.125rem;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 24px;
+}
+
+main .box1 {
+    margin: 10%;
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 15px 15px 15px rgb(0, 2, 20) ;
+    overflow: hidden;
+    padding: 30px;
+    background-color: rgb(12, 12, 49);
+    border-radius: 20px;
+    border: 2px solid rgb(14, 4, 43);
+    position: relative;
+    justify-content: center;
+    justify-items: center;
+}
+
+.you{
+    border: 1px solid rgb(6, 14, 37);
+    border-radius: 200px;
+    box-shadow: 1px 5px 5px rgb(6, 2, 31);
+    position: relative;
+    right: -73px;
+    margin: 10px;
+}
+
+.contactus ul{
+    display: flex;
+    position: relative;
+    list-style: none;
+    justify-content: center;
+    gap: 70px;
+}
+
+.contactus ul li a:hover
+{
+    filter: invert(1);
+    position: relative;
+    top: 8px;
+}
+
+.contactus ul li a   {
+    
+    filter: invert(0.5);
+}
+
+footer {
+    background-color: #0e0e1a;
+    /* height: 233px; */
+    /* padding: 12px; */
+}
+
+.footer ul {
+    list-style: none;
+    /* background-color: green; */
+    color: #6f6f6f;
+}
+
+.footer>div {
+    width: 125px;
+}
+
+
+.footer {
+    /* background-color: rgb(12, 5, 34); */
+    padding: 23px 122px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textenter {
+    text-align: center;
+    color: grey;
+}
